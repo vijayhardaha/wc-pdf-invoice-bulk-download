@@ -1,0 +1,7 @@
+{
+    "require": {
+        "grandt/binstring": "^1.0",
+        "phpzip/phpzip": "^2.0",
+        "deliciousbrains/wp-background-processing": "^1.0"
+    }
+}

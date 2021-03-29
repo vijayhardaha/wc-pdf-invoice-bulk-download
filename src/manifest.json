@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "admin.js": {
+      "files": [
+        "js/admin.js"
+      ]
+    },
+    "admin.css": {
+      "files": [
+        "css/admin.scss"
+      ]
+    }
+  },
+  "paths": {
+    "source": "src/",
+    "dist": "assets/"
+  }
+}
