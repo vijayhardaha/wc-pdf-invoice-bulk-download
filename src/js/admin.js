@@ -92,7 +92,7 @@
           var form = $( this );
 
           APP.removeAllNotices();
-
+		  
           $.ajax( {
             type: 'POST',
             url: ajaxurl,

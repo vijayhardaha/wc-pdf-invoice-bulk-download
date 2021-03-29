@@ -126,9 +126,9 @@ class WC_PDF_Invoices_Bulk_Download_Admin {
 			$params = array(
 				'ajaxurl'  => esc_url( admin_url( 'admin-ajax.php' ) ),
 				'messages' => array(
-					'general_error' => __( 'Something wrong. Please, try later.', 'wc-pdf-invoices-bulk-download' ),
+					'general_error' => __( 'Sorry, something is wrong. Please, try later.', 'wc-pdf-invoices-bulk-download' ),
 					'server_error'  => __( 'Please, increase your System Status Limits (PHP Time Limit, PHP Memory Limit, PHP Max Input Vars) or contact with your hosting.', 'wc-pdf-invoices-bulk-download' ),
-					'processing'    => __( 'Archive is preparing. Please, wait...', 'wc-pdf-invoices-bulk-download' ),
+					'processing'    => __( 'Archive is preparing, Please wait...', 'wc-pdf-invoices-bulk-download' ),
 					'success'       => __( 'Archive successfully created.', 'wc-pdf-invoices-bulk-download' ),
 				),
 			);
