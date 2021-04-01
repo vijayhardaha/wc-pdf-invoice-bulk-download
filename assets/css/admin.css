@@ -2362,6 +2362,11 @@ body .ui-tooltip {
     box-shadow: 0 0 0 1px #fff, 0 0 0 3px #38a4b5;
 }
 
+.wc-pdf-invoices-bulk-download-container .btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
 .wc-pdf-invoices-bulk-download-container .checkbox-group {
     margin: 0 0 8px 0;
 }
