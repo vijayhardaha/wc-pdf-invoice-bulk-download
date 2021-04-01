@@ -36,7 +36,7 @@ msgid "Invoice Bulk Download"
 msgstr ""
 
 #: ../includes/admin/class-wc-pdf-invoices-bulk-download-admin.php:129
-msgid "Something wrong. Please, try later."
+msgid "Sorry, something is wrong. Please, try later."
 msgstr ""
 
 #: ../includes/admin/class-wc-pdf-invoices-bulk-download-admin.php:130
@@ -44,7 +44,7 @@ msgid "Please, increase your System Status Limits (PHP Time Limit, PHP Memory Li
 msgstr ""
 
 #: ../includes/admin/class-wc-pdf-invoices-bulk-download-admin.php:131
-msgid "Archive is preparing. Please, wait..."
+msgid "Archive is preparing, Please wait..."
 msgstr ""
 
 #: ../includes/admin/class-wc-pdf-invoices-bulk-download-admin.php:132
