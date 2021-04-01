@@ -211,7 +211,6 @@ final class WC_PDF_Invoices_Bulk_Download {
 
 		if ( $this->is_request( 'admin' ) || $this->is_request( 'ajax' ) ) {
 			$this->process_single = new WC_PDF_Invoices_Bulk_Download_Async_Request();
-			$this->process_single->dispatch();
 		}
 
 		// Init action.

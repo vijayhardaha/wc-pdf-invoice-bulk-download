@@ -218,7 +218,10 @@ class WC_PDF_Invoices_Bulk_Download_Async_Request extends WP_Async_Request {
 		$files_to_zip = array();
 
 		foreach ( $orders as $order ) {
-			$document     = wcpdf_get_document( 'invoice', $order, true );
+			$document = wcpdf_get_document( 'invoice', $order, true );
+			if ( ! $document ) { // Something went wrong, continue trying with other documents.
+				continue;
+			}
 			$uploaded_pdf = wp_upload_bits( $document->get_filename(), null, $document->get_pdf(), 'temp' );
 
 			if ( ! empty( $uploaded_pdf ) && false === $uploaded_pdf['error'] ) {
